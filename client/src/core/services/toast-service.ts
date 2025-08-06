@@ -30,7 +30,7 @@ export class ToastService {
   <span>${message}</span>
   <button class ="ml-4 btn btn-sm btn-ghost">x</button>
   `
-  toast.querySelector('button')?.addEventListener('click', ()=> {
+  // toast.querySelector('button')?.addEventListener('click', ()=> {
     toastContainer.append(toast);
 
     setTimeout (() => {
@@ -38,7 +38,7 @@ export class ToastService {
         toastContainer.removeChild(toast);
       }
     },duration);
-  })
+  // })
   }
   success(message:string, duration?: number) {
     this.createToastElement(message, 'alert-success', duration);
