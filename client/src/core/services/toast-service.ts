@@ -21,7 +21,7 @@ export class ToastService {
   if (!toastContainer) return;
 
   const toast = document.createElement('div');
-  debugger
+  // debugger
   toast.classList.add('alert');
   toast.classList.add(alertClass);
   toast.classList.add('shadow-lg');
