@@ -2,7 +2,7 @@
     {
         "Id": "lisa-id",
         "Email": "lisa@test.com",
-        "Gender": "female",
+        "Gender": "Male",
         "DateOfBirth": "1986-07-22",
         "DisplayName": "Lisa",
         "Created": "2023-06-24",
@@ -23,7 +23,7 @@
         "Description": "Laborum dolore aliquip voluptate sunt cupidatat fugiat. Aliqua cillum deserunt do sunt ullamco aute Lorem nisi irure velit esse excepteur ex qui. Aliquip cupidatat officia ullamco duis veniam quis elit dolore nisi proident exercitation id cillum ullamco. In exercitation aliqua commodo veniam culpa duis commodo mollit et sint culpa.\r\n",
         "City": "Celeryville",
         "Country": "Grenada",
-        "ImageUrl": "https://randomuser.me/api/portraits/women/50.jpg"
+        "ImageUrl": "./nayeem.jpg"
     },
     {
         "Id": "margo-id",
