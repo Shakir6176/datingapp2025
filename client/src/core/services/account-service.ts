@@ -73,6 +73,7 @@ export class AccountService {
     localStorage.removeItem('filters');
     this.likesService.clearLikeIds();
     this.currentUser.set(null);
+    this.presentService.stopHubConnection();
   }
 
   private getRolesFromToken(user: User): string[] {
